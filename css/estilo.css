@@ -1,0 +1,143 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.limite{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+body{
+   
+    font-family: "Roboto", sans-serif;
+
+}
+
+header{
+    background-color: white;
+    
+}
+
+.topo{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 15px 0;
+    
+    
+}
+
+.btnwhats{
+    background-color: #52B788;
+    border-radius: 50px;
+    color:white;
+    font-size:20px;
+    width:350px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    justify-self: end;
+}
+.btnwhats span{
+    font-size:30px;
+    display: block;
+}
+.servicosgrupo{
+    grid-column-end: 4;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+}
+.servircos img{
+    width: 400px;
+    height: 400px;
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+.servicos{
+    padding: 20px;
+}
+.primeira{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+}
+nav menu{
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+}
+nav menu a{
+    display:block;
+    background-color: #52B788;
+    padding:8px;
+    color:white;
+    text-decoration: none;
+}
+
+.whatsapp{
+    display:flex;
+    justify-content: flex-end;
+}
+.topo h1{
+    grid-row: span 2;
+}
+.banner{
+    background-color: #FF9F1C;
+   
+    
+}
+.conteudobanner{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicos{
+    background-color: white;
+}
+
+
+
+.veterinariosgrupo {
+    background-color: #D8F3DC;
+    display:flex;
+    justify-content:space-around;
+}
+
+ 
+.planosgrupo{
+    display: flex;
+    justify-content: space-around;
+    color: #D8F3DC;
+}
+
+.veterinario img{
+    width: 150px;
+    height: 150px;
+}
+
+.animais img{
+    background-color: white;
+    width: 100%;
+}
+
+.planos{
+    background-color: #1B4332;
+    display:flex;
+    justify-content:center;
+}
+
+footer{
+    background-color: #52B788;
+
+}
